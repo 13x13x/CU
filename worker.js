@@ -1,12 +1,12 @@
 // ---------- Insert Your Data ---------- //
 
-const BOT_TOKEN = "BOT_TOKEN"; // Insert your bot token.
-const BOT_WEBHOOK = "/endpoint"; // Let it be as it is.
-const BOT_SECRET = "BOT_SECRET"; // Insert a powerful secret text (only [A-Z, a-z, 0-9, _, -] are allowed).
-const BOT_OWNER = 123456789; // Insert your telegram account id.
-const BOT_CHANNEL = -100123456789; // Insert your telegram channel id which the bot is admin in.
-const SIA_SECRET = "SIA_SECRET"; // Insert a powerful secret text and keep it safe.
-const PUBLIC_BOT = false; // Make your bot public (only [true, false] are allowed).
+const BOT_TOKEN = "8006465305:AAEwHDDKXzl95QGtFE4ZwiMrBcfq3TUiZgY";
+const BOT_WEBHOOK = "/endpoint";
+const BOT_SECRET = "nothing ";
+const BOT_OWNER = 5549620776;
+const BOT_CHANNEL = -1002288959081;
+const SIA_SECRET = "Nice123@";
+const PUBLIC_BOT = false;
 
 // ---------- Do Not Modify ---------- // 
 
@@ -434,4 +434,5 @@ async function onMessage(event, message) {
 
   let final_text = `*🗂 File Name:* \`${fName}\`\n*⚙️ File Hash:* \`${final_hash}\``
   return Bot.sendMessage(message.chat.id, message.message_id, final_text, buttons)
-}
+    }
+        
